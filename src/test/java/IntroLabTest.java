@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test
+    public void testMax_1007769737() {
+        String expected = "Hello! My name is Max! " +
+                "I like cats more than dogs! How's it going?";
+        String actual = IntroLab.Max_1007769737();
+        assertEquals(expected, actual);
+    }
 }

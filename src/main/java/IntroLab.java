@@ -49,6 +49,14 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    /**
+     * Print hello from Max, I like cats.
+     *
+     */
+    public static String Max_1007769737() {
+        return printLabMessage("Hello", "Max", true, "How's it going?");
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -59,6 +67,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(Max_1007769737());
 
 
     }
